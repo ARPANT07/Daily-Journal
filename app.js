@@ -2,7 +2,7 @@ const express = require("express");
 const ejs = require("ejs");
 const _ = require("lodash");
 
-const homeStartingContent = "This a sample Blog-style website which can be used as a digital journal to write and express whatever comes to your mind wihtout the fear of someone reading it 😜";
+const homeStartingContent = "This a sample Blog-style website which can be used as a digital journal to write and express whatever comes to your mind without the fear of someone reading it 😜";
 const aboutContent = "Hello, My name is Arpan Tiwari and this a website creted using the knowledge of both front-end and back-end.This website is created by using JS,CSS,Bootstrap and most importantly EJS and partials which are used when a website has multiple webpages and almost everyone of them is using the same design language and styles. This is done so that we don't have to write the same line of codes over and over again.This is more efficient,consistent and less prone to errors.";
 
 const app = express();
